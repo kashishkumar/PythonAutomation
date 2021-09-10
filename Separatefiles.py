@@ -3,10 +3,8 @@ import os
 import shutil
 import sys 
 
-path = sys.argv
-#path ="/Users/kashishkumar/Desktop/Coding Assignment/representationwithkashishkumar/Assignment_folders/Assignment_1/input_folder"
-#"/Users/kashishkumar/Desktop/Coding Assignment/representationwithkashishkumar/Assignment_folders 2/Assignment_1/input_folder"
-# Get file paths for text and image files 
+path = "..."
+
 def get_file_paths(path):
     image_files = glob(path + '/*.tiff') + glob(path + '/*.png') + glob(path + '/*.jpg')
     text_files = glob(path + '/*.txt') 
