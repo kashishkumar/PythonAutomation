@@ -1,3 +1,5 @@
+# A program for segregating files into different folders
+# Given a folder with image and text files, segregate images and text files into two different folders.
 from glob import glob
 import os
 import shutil
